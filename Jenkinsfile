@@ -12,4 +12,7 @@ pipeline {
     }
 
   }
+  environment {
+    registry = 'alextrubkindocker/cicd_worshop'
+  }
 }
